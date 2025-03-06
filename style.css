@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.Hero1{
+    height: 100vh;
+    background-image: url("./images/model-s.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Hero2{
+    height: 100vh;
+    background-image: url("./images/model-3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Hero3{
+    height: 100vh;
+    background-image: url("./images/model-x.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Hero4{
+    height: 100vh;
+    background-image: url("./images/model-y.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Hero5{
+    height: 100vh;
+    background-image: url("./images/solar-panel.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Hero6{
+    height: 100vh;
+    background-image: url("./images/solar-roof.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.upper{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.lower button:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.555);
+    color: rgb(255, 255, 255);
+    padding: 0.75rem;
+    margin: 1rem;
+    width: 20rem;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.lower button:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.555);
+    color: rgb(0, 0, 0);
+    padding: 0.75rem;
+    margin: 1rem;
+    width: 20rem;
+    border-radius: 30px;
+    font-size: 16px;
+}
+h2{
+    font-size: 40px;
+}
